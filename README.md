@@ -24,3 +24,9 @@
 pip3 install nltk textstat pyspellchecker markdown textblob
 ```
 > Python and jre are required for the env
+
+[docs-scan-slower.py](https://github.com/p1ng-request/automation-scripts/blob/main/docs-scan-slower.py)
++ Utilize Machine Learning techniques to perform grammar and spelling checks within a Python script.
++ However, be aware that the execution speed may be significantly slower compared to other methods.
++ The overall accuracy and quality of the results may be average, with a high number of false positives.
++ It is uncertain if this method is more effective than utilizing the Grammarly API (which is not currently accessible).
