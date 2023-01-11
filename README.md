@@ -21,7 +21,7 @@
 
 + Install dependencies:
 ```bash
-pip3 install nltk textstat pyspellchecker markdown textblob
+pip3 install nltk textstat pyspellchecker markdown textblob language-tool-python
 ```
 > Python and jre are required for the env
 
