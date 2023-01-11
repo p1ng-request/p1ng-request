@@ -6,17 +6,16 @@
 [readability-scan.py](https://github.com/p1ng-request/automation-scripts/blob/main/readability-scan.py): Automated Documentation Scanner. Features:
 + Scan all .md files in a given directory and all the sub-directories.
 + Utilizing natural language processing(NLP) techniques to determine complicated words by breaking down the text into individual sentences.
-+ Computing the Flesch-Kincaid Reading Ease score for each sentence to evaluate readability.
++ Evaluate **readability**: the Flesch-Kincaid Reading Ease score.
++ Evalute the **objectivity**: by computing the Automated Readability Index (ARI) and Flesch-Kincaid Grade Level.
++ Evalute **clearity**: Apply named entity recognition (NER) to identify specific words within the text and make suggestions for improvements.
 + Sample promot:
-+ > File: what-if-analysis.md
+
+> File: test.md
 > Score: 11.9
+>The document appears to be written at a lower reading level than the target audience. Consider using more complex vocabulary.
+> The document appears to be written in a subjective or non-technical language. Consider changing the language.
 > The document appears to be written at a higher reading level than the target audience. Consider simplifying the language.
 > The sentence: ' RATH has a data painter feature that allows you to perform exploratory data analysis by painting data dots.' has a low readability score > of 19.71. Consider simplifying the language.
-
-[clearity-scan.py](https://github.com/p1ng-request/automation-scripts/blob/main/clearity-scan.py): Scan docs using NER
-+ Apply named entity recognition (NER) to identify specific entities within the text and make suggestions for improvements.
-+ Sample prompt:
-
-> File: deployment.md
-> Score: 25.892857142857142
-> The use of proper names such as (PERSON Customized/NNP Computation/NNP) can sometimes be confusing and can be replaced with more general terms.
+> The use of proper names such as (PERSON Click/NNP) can sometimes be confusing and can be replaced with more general terms.
+> 
