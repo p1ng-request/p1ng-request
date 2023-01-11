@@ -18,4 +18,6 @@
 > The document appears to be written at a higher reading level than the target audience. Consider simplifying the language.
 > The sentence: ' RATH has a data painter feature that allows you to perform exploratory data analysis by painting data dots.' has a low readability score > of 19.71. Consider simplifying the language.
 > The use of proper names such as (PERSON Click/NNP) can sometimes be confusing and can be replaced with more general terms.
-> 
+
++ Install dependencies:
+> pip3 install nltk textstat pyspellchecker markdown textblob
