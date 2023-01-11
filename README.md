@@ -3,7 +3,7 @@
 
 [check-dead-links.py](https://github.com/p1ng-request/automation-scripts-best-pracitces/blob/main/check-dead-links.py): A Python script to scan dead links from a given web domain.
 
-[readability-scan.py](https://github.com/p1ng-request/automation-scripts/blob/main/readability-scan.py): Automated Documentation Scanner. Features:
+[docs-scan.py](https://github.com/p1ng-request/automation-scripts/blob/main/docs-scan.py): Automated Documentation Scanner. Features:
 + Scan all .md files in a given directory and all the sub-directories.
 + Utilizing natural language processing(NLP) techniques to determine complicated words by breaking down the text into individual sentences.
 + Evaluate **readability**: the Flesch-Kincaid Reading Ease score.
