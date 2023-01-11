@@ -20,4 +20,7 @@
 > The use of proper names such as (PERSON Click/NNP) can sometimes be confusing and can be replaced with more general terms.
 
 + Install dependencies:
-> pip3 install nltk textstat pyspellchecker markdown textblob
+```bash
+pip3 install nltk textstat pyspellchecker markdown textblob
+```
+> Python and jre are required for the env
