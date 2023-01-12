@@ -19,9 +19,10 @@
 
 + Install dependencies:
 ```bash
+## Install jre and setup env
+brew install python3
 pip3 install nltk textstat pyspellchecker markdown textblob language-tool-python
 ```
-> Evn prerequisites: python3 & jre installed
 
 [ml-docs-scanner.py](https://github.com/p1ng-request/automation-scripts/blob/main/ml-docs-scanner.py)
 + Utilize Machine Learning techniques to perform grammar and spelling checks within a Python script.
