@@ -14,11 +14,17 @@
 + Sample promot:
 
 > File: test.md
+>
 > Score: 11.9
+> 
 > ('The document appears to be written in a very subjective tone. Consider using more neutral language.', 'Tone')
+> 
 > ('The document appears to be written at a higher reading level than the target audience. Consider simplifying the language.', 'Readability')
+> 
 > ('The document appears to be written at a lower reading level than the target audience. Consider using more complex vocabulary.', 'Readability')
+> 
 > ('There are grammatical and/or spelling errors in the document. Consider running the document through a grammar and spell checker.', 'Grammar and Spelling')
+> 
 > The sentence: 'It allows data scientists to analyze data and visualize patterns with simple drag-and-drop operations.' has a low readability score of 6.5. Consider simplifying the language.
 
 + Install dependencies:
