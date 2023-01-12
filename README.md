@@ -9,7 +9,8 @@
 + Evaluate **readability**: the Flesch-Kincaid Reading Ease score.
 + Evalute the **objectivity**: by computing the Automated Readability Index (ARI) and Flesch-Kincaid Grade Level.
 + Evalute **clearity**: Apply named entity recognition (NER) to identify specific words within the text and make suggestions for improvements.
-+ Evalue the **tone** of the documentation using Machine learning for Sentiment analysis.
++ Evalute the **consistency**: Analyze the text based on NLP and ML, which, detects terms and check consistency.
++ Evalue the **tone**: Apply Sentiment analysis using Machine learning (ML) techniques.
 + Grammar check, spelling check & clearity check on a word-based level proven to be unreliable for generating too many false positives. Best pracitce: use grammarly instead.
 + Sample promot:
 
