@@ -5,29 +5,27 @@
 
 [nlp-docs-scanner.py](https://github.com/p1ng-request/automation-scripts/blob/main/nlp-docs-scanner.py): Automated Documentation Scanner. Features:
 + Scan all .md files in a given directory and all the sub-directories and use natural language processing(NLP) techniques to determine complicated words by breaking down the text into individual sentences.
-+ Grammar and Spelling checks are not implemented since Grammaly gives better results than all open sourced spellcheck libraries (many have been deprecated).
++ Grammar and Spelling checker.
 + Evaluate **readability**: the Flesch-Kincaid Reading Ease score.
 + Evalute the **objectivity**: by computing the Automated Readability Index (ARI) and Flesch-Kincaid Grade Level.
 + Evalute **clearity**: Apply named entity recognition (NER) to identify specific words within the text and make suggestions for improvements.
++ Evalue the **tone** of the documentation using Machine learning for Sentiment analysis.
++ Grammar check, spelling check & clearity check on a word-based level proven to be unreliable for generating too many false positives. Best pracitce: use grammarly instead.
 + Sample promot:
 
 > File: test.md
 > Score: 11.9
->The document appears to be written at a lower reading level than the target audience. Consider using more complex vocabulary.
-> The document appears to be written in a subjective or non-technical language. Consider changing the language.
-> The document appears to be written at a higher reading level than the target audience. Consider simplifying the language.
-> The sentence: ' RATH has a data painter feature that allows you to perform exploratory data analysis by painting data dots.' has a low readability score > of 19.71. Consider simplifying the language.
+> ('The document appears to be written in a very subjective tone. Consider using more neutral language.', 'Tone')
+> ('The document appears to be written at a higher reading level than the target audience. Consider simplifying the language.', 'Readability')
+> ('The document appears to be written at a lower reading level than the target audience. Consider using more complex vocabulary.', 'Readability')
+> ('There are grammatical and/or spelling errors in the document. Consider running the document through a grammar and spell checker.', 'Grammar and Spelling')
+> The sentence: 'It allows data scientists to analyze data and visualize patterns with simple drag-and-drop operations.' has a low readability score of 6.5. Consider simplifying the language.
 
 + Install dependencies:
 ```bash
-## Install jre and setup env
-## Install python and prerequisites library
-brew install python3
-pip3 install nltk textstat pyspellchecker markdown textblob language-tool-python
+## prereq: python3, jre
+## Install dependenceis:
+pip3 install nltk textstat markdown textblob language-tool-python
 ```
 
-[ml-docs-scanner.py](https://github.com/p1ng-request/automation-scripts/blob/main/ml-docs-scanner.py)
-+ Scanning a local folder, processes the text, studies the text, figures out grammar and spelling errors, checks consistency, readability, objectivity, and clarity, and gives suggestions using Machine Learning (ML).
-+ However, be aware that the execution speed may be significantly slower compared to other methods.
-+ The overall accuracy and quality for checking clearity (using named entity recognition) is prettey s**t.
-+ 
+[ml-docs-scanner.py](https://github.com/p1ng-request/automation-scripts/blob/main/ml-docs-scanner.py): (Under construction)
