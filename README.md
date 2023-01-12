@@ -1,9 +1,9 @@
 ![Banner](https://raw.githubusercontent.com/p1ng-request/p1ng-request/main/banner.gif)
 ## Something I have been working on 🎯
 
-[broken-links-checker.py](https://github.com/p1ng-request/automation-scripts-best-pracitces/blob/main/broken-links-checker.py): A Python script to scan dead links from a given web domain.
+[broken-links-checker.py](https://github.com/p1ng-request/document-automation-scripts/blob/main/broken-links-checker.py): A Python script to scan dead links from a given web domain.
 
-[nlp-docs-scanner.py](https://github.com/p1ng-request/automation-scripts/blob/main/nlp-docs-scanner.py): Automated Documentation Scanner. Features:
+[nlp-docs-scanner.py](https://github.com/p1ng-request/document-automation-scripts/blob/main/nlp-docs-scanner.py): Automated Documentation Scanner. Features:
 + Scan all .md files in a given directory and all the sub-directories and use natural language processing(NLP) techniques to determine complicated words by breaking down the text into individual sentences.
 + Grammar and Spelling checker.
 + Evaluate **readability**: the Flesch-Kincaid Reading Ease score.
