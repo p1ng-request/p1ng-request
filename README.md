@@ -20,6 +20,7 @@
 + Install dependencies:
 ```bash
 ## Install jre and setup env
+## Install python and prerequisites library
 brew install python3
 pip3 install nltk textstat pyspellchecker markdown textblob language-tool-python
 ```
