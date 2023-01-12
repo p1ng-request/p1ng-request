@@ -27,6 +27,8 @@
 > ('There are grammatical and/or spelling errors in the document. Consider running the document through a grammar and spell checker.', 'Grammar and Spelling')
 > 
 > The sentence: 'It allows data scientists to analyze data and visualize patterns with simple drag-and-drop operations.' has a low readability score of 6.5. Consider simplifying the language.
+> 
+> The word '{word}' is not consistent with the terms found in the rest of the documentation.", "Consistency"
 
 + Install dependencies:
 ```bash
