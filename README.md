@@ -27,7 +27,7 @@ pip3 install nltk textstat pyspellchecker markdown textblob language-tool-python
 ```
 
 [ml-docs-scanner.py](https://github.com/p1ng-request/automation-scripts/blob/main/ml-docs-scanner.py)
-+ Utilize Machine Learning techniques to perform grammar and spelling checks within a Python script.
++ Scanning a local folder, processes the text, studies the text, figures out grammar and spelling errors, checks consistency, readability, objectivity, and clarity, and gives suggestions using Machine Learning (ML).
 + However, be aware that the execution speed may be significantly slower compared to other methods.
-+ The overall accuracy and quality of the results may be s**t, with a high number of false positives.
++ The overall accuracy and quality for checking clearity (using named entity recognition) is prettey s**t.
 + 
