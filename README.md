@@ -37,4 +37,4 @@
 pip3 install nltk textstat markdown textblob language-tool-python
 ```
 
-[ml-docs-scanner.py](https://github.com/p1ng-request/automation-scripts/blob/main/ml-docs-scanner.py): (Under construction)
+[ml-docs-scanner.py](https://github.com/p1ng-request/document-automation/blob/main/ml-docs-scanner.py): (Under construction)
